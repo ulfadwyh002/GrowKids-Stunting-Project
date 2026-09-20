@@ -21,10 +21,10 @@ Setelah project dievaluasi kembali, untuk saat ini **lebih baik menggunakan perh
 
 Meski begitu, **ide prediksi tetap dapat dilanjutkan**. Yang perlu diganti adalah pendekatannya, bukan tujuannya: model machine learning dapat dikembangkan setelah perhitungan HAZ berjalan dengan baik, dengan algoritma yang lebih sesuai daripada KNN.
 
-## 🚀 Pengembangan Selanjutnya
+> ## 💭 Ide Awal
 
-1. **Perhitungan HAZ WHO lengkap** sesuai kelompok umur, jenis kelamin, dan jenis pengukuran.
-2. **Dashboard interaktif**
-4. **Growth monitoring**: menyimpan riwayat pengukuran untuk melihat perubahan pertumbuhan.
-5. **Penjelasan berbasis LLM** (opsional): hanya untuk menerjemahkan hasil ke bahasa sederhana, bukan menentukan status stunting.
-Project ini untuk pembelajaran dan eksplorasi data. Hasilnya bukan diagnosis medis dan tidak menggantikan konsultasi dengan tenaga kesehatan.
+Project ini bermula dari keinginan membuat **web yang dapat digunakan ibu atau orang tua untuk mengecek apakah anaknya berisiko stunting**, terutama di wilayah dengan akses layanan kesehatan yang terbatas.
+
+Agar web dapat memberikan hasil secara otomatis, saya berasumsi bahwa dibutuhkan **model machine learning**. Dengan dataset percobaan yang berisi data anak dan status stunting, saya melatih model **K-Nearest Neighbors (KNN)**, lalu memasukkan model tersebut ke dalam web.
+
+Setelah dievaluasi kembali, ditemukan bahwa pendekatan ini kurang tepat untuk pengecekan individu. Pengecekan individu lebih sesuai dilakukan dengan perhitungan langsung berbasis standar WHO, sedangkan machine learning lebih cocok diarahkan pada gambaran risiko di tingkat populasi.
