@@ -1,5 +1,5 @@
 # Child Growth & Stunting Risk Analysis
-
+![stunting](stunting.jpeg)
 ## 📌 Overview
 
 Project ini diangkat dari masalah nyata: **keterbatasan jangkauan layanan kesehatan di wilayah pelosok desa**. Di daerah seperti ini, akses ke tenaga kesehatan dan pemantauan pertumbuhan anak tidak selalu mudah, sehingga risiko stunting bisa terlambat terdeteksi. Untuk memudahkan pengecekan, project ini bertujuan membuat **dashboard perhitungan** yang dapat digunakan untuk melakukan screening stunting berdasarkan data pertumbuhan anak. Pada tahap awal, dashboard dirancang menggunakan model prediksi **K-Nearest Neighbors (KNN)**. Menurut WHO, stunting pada anak di bawah lima tahun ditandai dengan tinggi/panjang badan menurut umur yang berada di bawah **-2 SD** dari median WHO Child Growth Standards.
